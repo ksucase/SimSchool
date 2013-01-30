@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimSchool.AbstractInhabitant">
+    <Position X="2" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAAAAAAQQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inhabitants\AbstractInhabitant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimSchool.Professor">
+    <Position X="2" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Inhabitants\Professor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimSchool.ProfessorDrinkCoffeeState" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\ProfessorDrinkCoffeeState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimSchool.ProfessorGetHomeworkState" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\ProfessorGetHomeworkState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimSchool.ProfessorGradeHomeworkState" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\ProfessorGradeHomeworkState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimSchool.ProfessorSleepState" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\ProfessorSleepState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SimSchool.CatEatState">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\CatEatState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimSchool.CatSleepState" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\CatSleepState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SimSchool.GraduateStudentDoResearchState">
+    <Position X="11.75" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\GraduateStudentDoHomeworkState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimSchool.GraduateStudentSleepState">
+    <Position X="14.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>States\GraduateStudentSleepState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimSchool.Cat">
+    <Position X="0.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Inhabitants\Cat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimSchool.GraduateStudent">
+    <Position X="3.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Inhabitants\GraduateStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SimSchool.IProfessorState">
+    <Position X="7.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>StateInterfaces\IProfessorState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimSchool.ICatState">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>StateInterfaces\ICatState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimSchool.IGraduateStudentState">
+    <Position X="11.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>StateInterfaces\IGraduateStudentState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
