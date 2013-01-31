@@ -1,0 +1,53 @@
+ ================================================================================
+ Getting Started with GitHub Code Repositories 
+ Repositories are common storage areas for teams working on projects together.
+ ================================================================================
+
+Create a free account on GitHub (www.github.com). Remember your userID and password.
+
+Install the Native app GitHub for windows from: 
+https://help.github.com/articles/set-up-git.
+
+Install TortoiseGit from http://code.google.com/p/tortoisegit.
+
+ Make a new subfolder called "SimSchool".
+ 
+ In Windows Explorer, right-click the SimSchool folder and select
+ "Git create repository here". Leave the box unchecked and select OK.
+ 
+ This will create a hidden .git folder at the same level as the items 
+ listed above.  In that folder is a config file. Use a text editor
+ to edit the contents of the .git / config file as shown below.
+ 
+ Right-click on the SimSchool folder and select "Tortoise Git" / Pull".
+ 
+ Provide your userID and password as requested.
+ 
+ This will download the contents of the SimSchool repository at 
+ https://github.com/ksucase/SimSchool into your folder. 
+ 
+ Double-click on the SimSchool.sln file to open the Solution in Visual Studio.
+ 
+ 
+ ================================================================================
+ Edit the hidden .git / config  to match the following
+ ================================================================================
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "origin"]
+	url = https://github.com/ksucase/SimSchool.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	puttykeyfile = 
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	
+ ================================================================================
+ End
+ ================================================================================
