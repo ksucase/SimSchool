@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimSchool", "SimSchool\SimSchool.csproj", "{4DF2E985-DC4E-4BD5-A56A-9AB676EF4CBA}"
 EndProject
 Global

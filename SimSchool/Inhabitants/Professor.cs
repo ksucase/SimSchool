@@ -40,7 +40,7 @@ namespace SimSchool
 
         public override void Execute()
         {
-            this.currentState.Execute(this);
+             this.currentState.Execute(this);
         }
 
         private void OnExit()

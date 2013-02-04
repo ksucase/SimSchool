@@ -3,14 +3,14 @@
   <Class Name="SimSchool.AbstractInhabitant">
     <Position X="2" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAQAAAAAAQQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAQAAAAAAQQAAAAEAAAAAAAAAAAAAAg=</HashCode>
       <FileName>Inhabitants\AbstractInhabitant.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SimSchool.Professor">
     <Position X="2" Y="7" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAg=</HashCode>
       <FileName>Inhabitants\Professor.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -81,14 +81,14 @@
   <Class Name="SimSchool.Cat">
     <Position X="0.75" Y="4" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAg=</HashCode>
       <FileName>Inhabitants\Cat.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SimSchool.GraduateStudent">
     <Position X="3.5" Y="4" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAABAQAIAAAAAAAAAAQAAAAAIAAAAAAAAg=</HashCode>
       <FileName>Inhabitants\GraduateStudent.cs</FileName>
     </TypeIdentifier>
   </Class>
