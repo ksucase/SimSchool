@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Inhabitants\AbstractInhabitant.cs" />
+    <Compile Include="Inhabitants\Programmer.cs" />
+    <Compile Include="StateInterfaces\IProgrammerState.cs" />
     <Compile Include="States\CatEatState.cs" />
     <Compile Include="StateInterfaces\IGraduateStudentState.cs" />
     <Compile Include="States\GraduateStudentSleepState.cs" />
@@ -58,6 +60,9 @@
     <Compile Include="Inhabitants\Cat.cs" />
     <Compile Include="States\GraduateStudentDoHomeworkState.cs" />
     <Compile Include="States\CatSleepState.cs" />
+    <Compile Include="States\ProgrammerDrinkSodaState.cs" />
+    <Compile Include="States\ProgrammerProgramState.cs" />
+    <Compile Include="States\ProgrammerSleepState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

@@ -82,6 +82,10 @@ namespace SimSchool
             Cat bill = new Cat("Bill the Cat");
             inhabitantList.Add(bill);
 
+            // add a programmer instance to the list
+            Programmer josh = new Programmer("Josh");
+            inhabitantList.Add(josh);
+
             // add a new type of character to the list
 
             //TODO: add your code here
